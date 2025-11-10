@@ -5,9 +5,9 @@ import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
+import chatify from "../../Assets/Projects/chatify.jpg";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import bitsOfCode from "../../Assets/Projects/diving.webp";
 
 function Projects() {
   return (
@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Autonomous System"
+              description="Developed a Multi-Agent System using the AutoGen framework to manage pedestrian traffic flow from multiple classrooms through a narrow bottleneck road. The system featured cooperative classroom agents and a bottleneck agent that coordinated lecture end times by negotiating commitments to prevent congestion. Agents autonomously adjusted lecture durations, tracked historical commitments, and raised violation events for repeated non-compliance, ensuring efficient, congestion-free student movement."
+              ghLink="https://github.com/aaririri/Cooperative-Exit-Flow-Optimizer"
+              demoLink="https://github.com/aaririri/Cooperative-Exit-Flow-Optimizer/blob/main/notebooks/demo_visualization.py"
             />
           </Col>
 
@@ -36,29 +36,29 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Dive Score Research"
+              description="Developed a multimodal deep learning model to predict dive scores using synchronized video and commentary data. The system integrates ViViT for video encoding, BERT for text encoding, and a cross-attention mechanism for fusion. A contrastive CLIP-style head aligns visual and textual cues, improving scoring consistency across frames. The model was trained and tested on real diving videos to evaluate performance and accuracy."
+              ghLink="https://github.com/aaririri/CLIP-VQA"
+              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={emotion}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Twitter Sentiment Analysis"
+              description="Built a sentiment analysis pipeline on 30k+ tweets to classify public opinions using multiple machine learning models, including SVM, Random Forest, Naive Bayes, and Logistic Regression. Implemented text preprocessing, TF-IDF and BERT tokenization, and dimensionality reduction with PCA and LDA. Compared model performances and achieved a peak accuracy of 71.5% using TF-IDF features, demonstrating effective handling of large-scale social media data."
+              ghLink="https://github.com/aaririri/CSL2050-Course-Project"
+              demoLink="https://github.com/aaririri/CSL2050-Course-Project/blob/main/Demo.ipynb"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="Plant AI"
+              title="Gold Price Prediction"
               description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
@@ -86,7 +86,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>

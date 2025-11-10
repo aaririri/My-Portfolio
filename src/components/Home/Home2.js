@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+// import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/aarohi.jpg";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
@@ -13,37 +14,37 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a final year student who loves to build robust real-time models
+              Artificial Intelligence solutions. Over time, I've explored with many 
+              tools and technologies and found my interests to lie in developing 
+              Machine Learning solutions. 
               <br />
               <br />
               I’m proficient in
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  C++, Python, SQL, and JavaScript{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — and I enjoy working to develop AI and ML frameworks.
               <br />
               <br />
               My key areas of interest include developing
               <i>
                 <b className="purple">
                   {" "}
-                  Web Applications, Blockchain Solutions,{" "}
+                  Machine Learning Models, LangChain Solutions,{" "}
                 </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              and exploring new ways to build automated systems.
               <br />
               <br />
               Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
+              <b className="purple"> Python </b> and modern frameworks like{" "}
               <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
+                <b className="purple">PyTorch</b> and{" "}
+                <b className="purple">TensorFlow</b>.
               </i>
             </p>
           </Col>
